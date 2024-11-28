@@ -1,0 +1,9 @@
+name: 'Setup Devpi CLI'
+description: 'Sets up the Devpi CLI tool'
+inputs:
+  version:
+    description: 'Version of Devpi to install'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
